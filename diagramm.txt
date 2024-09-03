@@ -1,0 +1,43 @@
++---------------------------------------+
+|             FileManager               |
++---------------------------------------+
+| - MALLS_FILE: String                  |
++---------------------------------------+
+| + loadMalls(): List<Mall>             |
+| + saveMalls(List<Mall>, String): void |
++---------------------------------------+
+
++---------------------------------------+
+|                 Mall                  |
++---------------------------------------+
+| - rank: int                           |
+| - name: String                        |
+| - country: String                     |
+| - city: String                        |
+| - yearOpened: int                     |
+| - glaSqt: int                         |
+| - glaSqm: int                         |
+| - shops: int                          |
++---------------------------------------+
+| + Mall()                              |
+| + Mall(int, String, String,           |
+|       String, int, int, int, int)     |
+| + getRank(): int                      |
+| + getName(): String                   |
+| + getCountry(): String                |
+| + getCity(): String                   |
+| + getYearOpened(): int                |
+| + getGlaSqt(): int                    |
+| + getGlaSqm(): int                    |
+| + getShops(): int                     |
+| + parseFrom(String): Mall             |
+| + parseTo(): String                   |
++---------------------------------------+
+
++---------------------------------------+
+|                MallDemo                |
++---------------------------------------+
+| + main(String[]): void                |
++---------------------------------------+
+mall demo is assosiate 
+mall is composing 
